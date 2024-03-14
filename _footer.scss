@@ -1,0 +1,41 @@
+footer {
+    padding-top: 40px;
+    background-color: #746A61;
+    .footer-wrapper {
+        color: white;
+        .footer-htwoods {
+            gap: 16px;
+        }
+        .footer-services {
+            gap: 16px;
+        }
+        .footer-social {
+            gap: 16px;
+        }
+
+        .footer-content {
+            padding-bottom: 112px;
+            display: flex;
+            gap: 126px;
+        }
+        .footer-bottom {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+                .footer-bottom__location {
+                    display: flex;
+                    gap: 12px;
+                }
+                .footer-bottom__copyright {
+                    white-space: nowrap;
+                    display: flex;
+                    gap: 12px;
+                }
+
+        }
+        
+        
+    }
+    
+    
+}

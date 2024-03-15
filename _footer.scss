@@ -4,12 +4,30 @@ footer {
     .footer-wrapper {
         color: white;
         .footer-htwoods {
+            display: flex;
+            flex-direction: column;
             gap: 16px;
+            .footer-htwoods__showroom {
+                display: flex;
+                gap: 12px;
+            }
+            .footer-htwoods__phone {
+                display: flex;
+                gap: 12px;
+            }
+            .footer-htwoods__mail {
+                display: flex;
+                gap: 12px;
+            }
         }
         .footer-services {
+            display: flex;
+            flex-direction: column;
             gap: 16px;
         }
-        .footer-social {
+        .footer-support {
+            display: flex;
+            flex-direction: column;
             gap: 16px;
         }
 
@@ -38,4 +56,16 @@ footer {
     }
     
     
+}
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-social__icons{
+    display: flex;
+    gap: 24px;
+}
+.footer-bottom{
+    padding-bottom: 20px;
 }

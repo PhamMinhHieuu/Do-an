@@ -210,7 +210,7 @@ h5 {
 
 footer {
   padding-top: 40px;
-  background-color: #746A61;
+  background-color: #AD875D;
 }
 footer .footer-wrapper {
   color: white;
@@ -341,6 +341,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 .section-index__img {
   padding-bottom: 60px;
   display: flex;
+  gap: 30px;
 }
 
 .section-aboutus {
@@ -440,4 +441,98 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   display: flex;
   gap: 16px;
   padding-right: 150px;
+}
+
+.tableandchair-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.tableandchair-right__code {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableandchair-right__img {
+  padding-bottom: 30px;
+}
+
+.right-properties__title {
+  color: var(--foundation-black-white-black, #2E2E2E);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+
+.right-properties__buttons {
+  color: white;
+  display: flex;
+  width: 240px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 100px;
+  border: 1px solid var(--Foundation-Primary-primary-500, #996935);
+  background: var(--Foundation-Primary-primary-400, #AD875D);
+}
+
+.right-properties__flex {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+.tableandchair-detail__title {
+  color: var(--foundation-black-white-black, #2E2E2E);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.tableandchair-left__small {
+  padding-top: 30px;
+  display: flex;
+  gap: 25px;
+}
+
+.tableandchair-image {
+  padding-top: 126px;
+}
+
+.tableandchair-image__flex {
+  padding-bottom: 60px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-function {
+  padding-top: 60px;
+  padding-bottom: 766px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-suggest {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-bar {
+  display: flex;
+  width: 690px;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
+  background: var(--foundation-black-white-white, #FEFEFE);
 }/*# sourceMappingURL=style.css.map */

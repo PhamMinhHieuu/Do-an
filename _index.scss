@@ -13,7 +13,7 @@
     align-items: center;
     gap: 12px;
     border-radius: 100px;
-background: var(--Foundation-Primary-primary-500, #514539);
+background: var(--Foundation-Primary-primary-500, #996935);
 }
 .section-background__group {
     transform: translateX(50%);
@@ -41,6 +41,10 @@ background: var(--Foundation-Primary-primary-500, #514539);
     // display: flex;
     padding-top: 60px;
 }
+.section-hot__image{
+    display: flex;
+    flex-wrap: wrap;
+}
 .section-index {
     padding-top: 60px;
 }
@@ -66,14 +70,22 @@ background: var(--Foundation-Primary-primary-500, #514539);
     background-image: url(/img/image\ 44.png);
 }
 
+.product-box__button{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
 .section-discription__title {
+    border-bottom: 1px solid #996935;
     padding-top: 76px;
-    padding-bottom: 32px;
-    text-decoration: underline;
+    padding-bottom: 16px;
 }
 .section-discription__button {
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
     color: #996935;
-
     display: flex;
     width: 240px;
     padding: 12px 16px;
@@ -83,8 +95,12 @@ background: var(--Foundation-Primary-primary-500, #514539);
     border-radius: 100px;
 background: var(--Foundation-Primary-primary-500, white);
 }
+
+.section-box__discription{
+  color: #8A929E;
+}
 .section-aboutus__discription {
-    transform: translate(50%, 25%);
+    transform: translate(25%, 25%);
     flex-direction: column;
     display: flex;
     // justify-content: center;
@@ -102,11 +118,15 @@ background: var(--Foundation-Primary-primary-500, white);
     flex-wrap: wrap;
   }
   .section-hot__title {
+    padding-bottom: 30px;
     text-align: center;
   }
   .section-news {
-    
+    align-items: center;
+    display: flex;
+    flex-direction: column;    
     padding-top: 60px;
+    padding-bottom: 60px;
   }
 .section-news__discription {
     display: flex;
@@ -137,13 +157,23 @@ background: var(--Foundation-Primary-primary-500, white);
 .product-box__title {
     color: black;
     font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C9CDD2;
+}
+.product-box__left{
+    min-width: 350px;
 }
 .product-box {
     // display: flex;
     padding-top: 30px;
+    display: flex;
+    gap: 30px;
 }
 .product-box__select {
+    // margin-top: 16px;
+    margin-top: 20px;
     display: flex;
+    justify-content: space-between;
 }
 .product-box__check {
     display: flex;

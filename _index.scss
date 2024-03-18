@@ -2,7 +2,7 @@
     
     color: white;
     background-image: url(/img/background.png);
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+    background: url(/img/background.png) lightgray 50% / cover no-repeat, #D9D9D9;
 }
 .section-background__button {
     color: white;
@@ -41,7 +41,11 @@ background: var(--Foundation-Primary-primary-500, #514539);
     // display: flex;
     padding-top: 60px;
 }
+.section-index {
+    padding-top: 60px;
+}
 .section-index__title {
+    padding-bottom: 30px;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -52,17 +56,24 @@ background: var(--Foundation-Primary-primary-500, #514539);
     }
 }
 .section-index__img {
+    padding-bottom: 60px;
     display: flex;
+    // gap: 30px;
 }
 
 .section-aboutus {
+    height: 600px;
     background-image: url(/img/image\ 44.png);
 }
 
 .section-discription__title {
+    padding-top: 76px;
+    padding-bottom: 32px;
     text-decoration: underline;
 }
 .section-discription__button {
+    color: #996935;
+
     display: flex;
     width: 240px;
     padding: 12px 16px;
@@ -73,10 +84,57 @@ background: var(--Foundation-Primary-primary-500, #514539);
 background: var(--Foundation-Primary-primary-500, white);
 }
 .section-aboutus__discription {
+    transform: translate(50%, 25%);
+    flex-direction: column;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
     width: 930px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 16px;
     background: var(--foundation-black-white-white, #FEFEFE);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+}
+.section-hot__img {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-hot__title {
+    text-align: center;
+  }
+  .section-news {
+    
+    padding-top: 60px;
+  }
+.section-news__discription {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.section-box__title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: var(--foundation-black-white-black, #2E2E2E);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+.section-news__title  {
+    padding-bottom: 30px;
+}
+
+.product-menu {
+    display: flex;
+    gap: 12px;
+}
+.section-product__menu {
+    display: flex;
+    gap: 12px;
+}
+.product-box__title {
+    color: black;
+    font-weight: bold;
 }

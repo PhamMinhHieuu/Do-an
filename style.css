@@ -30,7 +30,7 @@ ul {
 }
 
 .container_center {
-  max-width: 1310px;
+  max-width: 1410px;
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
@@ -426,4 +426,18 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 .product-box__title {
   color: black;
   font-weight: bold;
+}
+
+.product-box {
+  padding-top: 30px;
+}
+
+.product-box__select {
+  display: flex;
+}
+
+.product-box__check {
+  display: flex;
+  gap: 16px;
+  padding-right: 150px;
 }/*# sourceMappingURL=style.css.map */

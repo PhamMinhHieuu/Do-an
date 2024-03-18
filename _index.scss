@@ -138,3 +138,15 @@ background: var(--Foundation-Primary-primary-500, white);
     color: black;
     font-weight: bold;
 }
+.product-box {
+    // display: flex;
+    padding-top: 30px;
+}
+.product-box__select {
+    display: flex;
+}
+.product-box__check {
+    display: flex;
+    gap: 16px;
+    padding-right: 150px;
+}

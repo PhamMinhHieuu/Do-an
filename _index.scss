@@ -15,6 +15,21 @@
     border-radius: 100px;
     background: var(--Foundation-Primary-primary-500, #996935);
 }
+.youraccount-right__png{
+    padding-top: 8px;
+    color: var(--Foundation-Grey-grey-500, #8A929E);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+
+/* Regular (400)/Text sm */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
 .youraccount-left__button2{
     font-weight: bold;
     border: 1px solid #996935;
@@ -503,7 +518,21 @@ background: var(--Foundation-Primary-primary-500, white);
     border-radius: 100px;
     background-color: white;
 }
+.changeinfomation2-button{
+    font-weight: bold;
+    border: 1px solid #996935;
+    color: #996935;
+    display: flex;
+    width: 330px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 100px;
+    background-color: white;
+}
 .youraccount-right__box5{
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 511px;
     display: flex;gap: 30px;
@@ -574,7 +603,11 @@ background: var(--Foundation-Primary-primary-500, white);
     border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
     background: var(--foundation-black-white-white, #FEFEFE);
 }
+.youraccount-right__box6{
+    padding-bottom: 16px;
+}
 .youraccount-right__box4{
+    height: 48px;
     width: 900px;
     display: flex;
     padding: 12px 16px;
@@ -599,6 +632,11 @@ background: var(--Foundation-Primary-primary-500, white);
 .purchasehistory-all{
     align-items: center;
     display: flex;
+}
+.changeinfomation2-img{
+    border-bottom: 1px solid #C9CDD2;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .purchasehistory-2_button1{
     margin: 16px 0px;
@@ -640,4 +678,19 @@ background: var(--Foundation-Primary-primary-500, white);
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 24px */
+}
+.youraccount-right__green{
+    color: var(--Foundation-Green-green-500, #00D084);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+.changeinfomation2-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.changeinfomation2-button{   
+     margin-left: auto;
 }

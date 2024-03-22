@@ -153,6 +153,15 @@ ul {
   }
 }
 
+h1 {
+  color: var(--foundation-black-white-black, #2E2E2E);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 72px */
+}
+
 h2 {
   font-size: 24px;
 }
@@ -1018,12 +1027,43 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   background: var(--Foundation-Primary-primary-500, #996935);
 }
 
+.news2-button1 {
+  margin: 16px 0px;
+  border: 1px solid #996935;
+  color: white;
+  display: flex;
+  width: 240px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 100px;
+  background: var(--Foundation-Primary-primary-500, #996935);
+}
+
 .purchasehistory-2_button2 {
   font-weight: bold;
   border: 1px solid #996935;
   color: #996935;
   display: flex;
   width: 210px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.news2-button2 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  border: 1px solid #996935;
+  color: #996935;
+  display: flex;
+  width: 240px;
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
@@ -1066,4 +1106,67 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 
 .changeinfomation2-button {
   margin-left: auto;
+}
+
+.news-flex {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 60px;
+}
+
+.news-trend {
+  padding-top: 90px;
+}
+
+.new-box {
+  padding-bottom: 30px;
+}
+
+.news-img {
+  padding-bottom: 30px;
+}
+
+.news-title {
+  width: 450px;
+  padding-bottom: 12px;
+  color: var(--foundation-black-white-black, #2E2E2E);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+}
+
+.new-discription {
+  color: var(--foundation-black-white-black, #2E2E2E);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.news2-flex {
+  display: flex;
+}
+
+.news2-flex__right {
+  flex-shrink: 0;
+}
+
+.news2-flex2__title {
+  padding-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.align-unset {
+  text-align: unset;
+}
+
+.news2-flex3 {
+  align-items: center;
+  gap: 30px;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

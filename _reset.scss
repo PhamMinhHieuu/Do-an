@@ -127,6 +127,15 @@
     }
   }
 }
+h1 {
+  color: var(--foundation-black-white-black, #2E2E2E);
+
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 72px */
+}
 h2 {
     font-size: 24px;
 }

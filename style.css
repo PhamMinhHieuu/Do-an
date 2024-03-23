@@ -1148,6 +1148,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .news2-flex {
+  padding-top: 60px;
   display: flex;
 }
 

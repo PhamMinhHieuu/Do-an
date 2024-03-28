@@ -34,7 +34,7 @@ footer {
         .footer-content {
             padding-bottom: 112px;
             display: flex;
-            gap: 126px;
+            gap: 150px;
         }
         .footer-bottom {
             display: flex;
@@ -58,6 +58,7 @@ footer {
     
 }
 .footer-social{
+    padding-left: 120px;
     display: flex;
     flex-direction: column;
     gap: 24px;

@@ -428,6 +428,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .section-aboutus {
+  background-repeat: round;
   height: 600px;
   background-image: url(/img/image\ 44.png);
 }
@@ -466,7 +467,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .section-aboutus__discription {
-  transform: translate(52%, 25%);
+  transform: translate(50%, 25%);
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -557,6 +558,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .tableandchair-flex {
+  padding-top: 120px;
   display: flex;
   gap: 30px;
 }
@@ -622,8 +624,9 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 
 .product-box__right {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 30px;
 }
 
 .product-box__img {
@@ -1245,6 +1248,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .about-us_text {
+  padding-bottom: 30px;
   color: var(--colors-black-white-black, #000);
   font-size: 18px;
   font-style: normal;

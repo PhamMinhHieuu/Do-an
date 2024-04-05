@@ -355,8 +355,6 @@ gap: 30px;
     align-items: center;
     gap: 8px;
     border-radius: 100px;
-    border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
-    background: var(--foundation-black-white-white, #FEFEFE);
 }
 .pay-title{
     padding-top: 90px;
@@ -666,8 +664,6 @@ gap: 30px;
     align-items: center;
     gap: 8px;
     border-radius: 100px;
-    border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
-    background: var(--foundation-black-white-white, #FEFEFE);
 }
 .youraccount-text{
     padding-bottom: 8px;
@@ -899,4 +895,27 @@ gap: 30px;
     border-radius: 100px;
     border: 1px solid var(--Foundation-Primary-primary-500, #996935);
 
+}
+
+.search-bar__style{
+    
+    display: flex;
+    width: 690px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
+    background: var(--foundation-black-white-white, #FEFEFE);
+
+}
+.youraccount-right__box8{
+    display: flex;
+width: 930px;
+padding: 12px 16px;
+align-items: center;
+gap: 8px;
+border-radius: 100px;
+border: 1px solid var(--Foundation-Grey-grey-200, #C9CDD2);
+background: var(--foundation-black-white-white, #FEFEFE);
 }

@@ -7,6 +7,9 @@ footer {
             display: flex;
             flex-direction: column;
             gap: 16px;
+            @media (max-width:576px){
+                padding-bottom: 20px;
+            }
             .footer-htwoods__showroom {
                 display: flex;
                 gap: 12px;
@@ -21,6 +24,9 @@ footer {
             }
         }
         .footer-services {
+            @media (max-width:576px){
+                padding-bottom: 20px;
+            }
             display: flex;
             flex-direction: column;
             gap: 16px;
@@ -35,6 +41,9 @@ footer {
             padding-bottom: 112px;
             display: flex;
             gap: 150px;
+            @media (max-width: 576px) {
+                display: unset;
+            }
         }
         .footer-bottom {
             display: flex;
@@ -62,11 +71,34 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    @media (max-width:576px){
+        padding: unset;
+
+    }
 }
 .footer-social__icons{
     display: flex;
     gap: 24px;
+    @media (max-width:576px){
+        gap: 8px;
+    }
 }
 .footer-bottom{
     padding-bottom: 20px;
+    @media (max-width:576px){
+        padding-top: 16px;
+    }
+}
+.footer-social__text{
+    @media(max-width: 576px){
+        
+    color: var(--foundation-black-white-white, #FEFEFE);
+        padding-top: 16px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 36px */
+    
+    }
 }

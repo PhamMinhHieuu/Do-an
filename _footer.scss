@@ -10,6 +10,9 @@ footer {
             @media (max-width:576px){
                 padding-bottom: 20px;
             }
+            @media (max-width:1250px){
+                padding-bottom: 20px;
+            }
             .footer-htwoods__showroom {
                 display: flex;
                 gap: 12px;
@@ -27,6 +30,9 @@ footer {
             @media (max-width:576px){
                 padding-bottom: 20px;
             }
+            @media (max-width:1250px){
+                padding-bottom: 20px;
+            }
             display: flex;
             flex-direction: column;
             gap: 16px;
@@ -42,6 +48,9 @@ footer {
             display: flex;
             gap: 150px;
             @media (max-width: 576px) {
+                display: unset;
+            }
+            @media (max-width: 1250px) {
                 display: unset;
             }
         }
@@ -75,6 +84,10 @@ footer {
         padding: unset;
 
     }
+    @media (max-width:1250px){
+        padding: unset;
+
+    }
 }
 .footer-social__icons{
     display: flex;
@@ -82,10 +95,16 @@ footer {
     @media (max-width:576px){
         gap: 8px;
     }
+    @media (max-width:1250px){
+        gap: 8px;
+    }
 }
 .footer-bottom{
     padding-bottom: 20px;
     @media (max-width:576px){
+        padding-top: 16px;
+    }
+    @media (max-width:1250px){
         padding-top: 16px;
     }
 }
@@ -101,4 +120,15 @@ footer {
         line-height: 150%; /* 36px */
     
     }
+    @media(max-width: 1250px){
+        
+        color: var(--foundation-black-white-white, #FEFEFE);
+            padding-top: 16px;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 36px */
+        
+        }
 }

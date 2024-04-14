@@ -1,0 +1,233 @@
+.header {
+    background-image: url(/assets/img/BGmain.png);
+    background-size: cover;
+}
+
+.container__extra {
+    max-width: 1920px;
+    height: 500px;
+}
+
+.header-flex-extra {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+
+}
+
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.navigation-list__items {
+    a {
+        position: relative;
+        &::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #34C635;
+            position: absolute;
+            left: 40%;
+            top: -8px;
+            border-radius: 50%;
+            display: none;
+        }
+        
+        
+    }
+    &:hover {
+        a {
+            &::before {
+                display: block;
+            }
+        }
+    }
+}
+
+.button-header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+// .button-sign-in {
+//     padding: 13px 24px;
+//     background-color: #292F3A;
+//     color: #fff;
+//     border-radius: 5px;
+// }
+
+.header-banner{
+    padding-top: 139px;
+    padding-bottom: 200px;
+}
+
+.header-banner__title {
+    text-align: center;
+    @media (max-width: 1100px) {
+        font-size: 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.header-banner__discription {
+    font-size: 15px;
+    text-align: center;
+    color: #7B88A8;
+
+}
+
+.header-flex__button {
+    gap: 30px;align-items: center;
+}
+.header-flex {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+   // background-image: url(/assets/img/BGmain.png);
+}
+
+.header--home {
+    background-image: none;
+}
+
+.header-bar {
+    display: none;
+    z-index: 99;
+    @media (max-width: 991px) {
+        display: block;
+    }
+}
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.navigation-list--desktop {
+    @media (max-width: 991px) {
+        display: none;
+    }
+}
+
+.navigation-list--mobile {
+    display: none;
+    @media (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+
+.navigation-list__items {
+    a {
+        position: relative;
+        &::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #34C635;
+            position: absolute;
+            left: 40%;
+            top: -8px;
+            border-radius: 50%;
+            display: none;
+        }             
+    }
+    &:hover {
+        a {
+            &::before {
+                display: block;
+            }
+        }
+    }
+}
+
+.button-header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   
+    @media (max-width: 991px) {
+        position: fixed;
+        justify-content: start;
+        background-color: #fff;
+        width: 80%;
+        top: 0;
+        height: 100vh;
+        right: -80%;
+        padding-top: 100px;
+        flex-direction: column;
+        gap: 45px;
+        z-index: 99;
+        transition: all 0.5s ease-out;
+    }
+}
+
+.header-flex__logo {
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        scale: 0.9;
+    }
+}
+// .button-sign-in {
+//     cursor: pointer;
+//     font-size: 14px;
+//     text-transform: uppercase;
+//     padding: 13px 24px;
+//     background-color: #292F3A;
+//     color: #fff;
+//     border-radius: 5px;
+//     transition: all 0.3s ease;
+
+//     &:hover {
+//         color: #4F77FF;
+//     }
+// }
+
+.show-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #333;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.show-menu {
+    right: 0%;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.button-header__bag {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        scale: 1.2;
+    }
+}
+
+.button-header__search {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        scale: 1.2;
+    }
+}

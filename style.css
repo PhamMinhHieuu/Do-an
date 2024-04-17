@@ -399,6 +399,12 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 12px;
   border-radius: 100px;
   background: var(--Foundation-Primary-primary-500, #996935);
+  border: 1px solid #996935;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.section-background__button:hover {
+  scale: 0.95;
 }
 
 .youraccount-right__png {
@@ -586,6 +592,9 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .section-discription__button {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #996935;
   border-color: #996935;
   height: 48px;
   font-size: 16px;
@@ -599,6 +608,9 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 12px;
   border-radius: 100px;
   background: var(--Foundation-Primary-primary-500, white);
+}
+.section-discription__button:hover {
+  scale: 0.8;
 }
 @media (max-width: 900px) {
   .section-discription__button {
@@ -675,6 +687,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 
 .product-menu {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
 @media (max-width: 900px) {
@@ -1400,6 +1413,10 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 12px;
   border-radius: 100px;
   background: var(--Foundation-Primary-primary-500, #996935);
+  transition: all 0.3s ease-in-out;
+}
+.news2-button1:hover {
+  scale: 0.8;
 }
 
 .purchasehistory-2_button2 {
@@ -1416,7 +1433,15 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   background-color: white;
 }
 
+.news2-img {
+  transition: all 0.3s ease-in-out;
+}
+.news2-img:hover {
+  transform: scale(0.95);
+}
+
 .news2-button2 {
+  transition: all 0.3s ease-in-out;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -1431,6 +1456,9 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 12px;
   border-radius: 100px;
   background-color: white;
+}
+.news2-button2:hover {
+  scale: 0.8;
 }
 
 .favourite-padding {
@@ -1492,7 +1520,25 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .news-img {
+  transition: all 0.3s ease-in-out;
   padding-bottom: 30px;
+}
+.news-img:hover {
+  transform: scale(0.95);
+}
+
+.img-hover {
+  transition: all 0.3s ease-in-out;
+}
+.img-hover:hover {
+  transform: scale(0.95);
+}
+
+.img-hover2 {
+  transition: all 0.3s ease-in-out;
+}
+.img-hover2:hover {
+  transform: scale(0.8);
 }
 
 .news-title {
@@ -1527,6 +1573,10 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 
 .news2-flex__right {
   flex-shrink: 0;
+  transition: all 0.3s ease-in-out;
+}
+.news2-flex__right:hover {
+  transform: scale(0.95);
 }
 
 .news2-flex2__title {
@@ -1561,11 +1611,15 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 90px;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1100px) {
   .aboutus-background {
     background-image: none;
   }
+}
+.aboutus-background:hover {
+  transform: scale(0.95);
 }
 
 .aboutus-background__button {
@@ -1650,6 +1704,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 
 .login-save__flex {
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -1781,24 +1836,6 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 30px;
 }
 
-.navigation-list__items a {
-  position: relative;
-}
-.navigation-list__items a::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #34C635;
-  position: absolute;
-  left: 40%;
-  top: -8px;
-  border-radius: 50%;
-  display: none;
-}
-.navigation-list__items:hover a::before {
-  display: block;
-}
-
 .button-header {
   display: flex;
   gap: 30px;
@@ -1886,7 +1923,7 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #34C635;
+  background-color: unset;
   position: absolute;
   left: 40%;
   top: -8px;
@@ -1895,6 +1932,13 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
 }
 .navigation-list__items:hover a::before {
   display: block;
+}
+
+.navigation-list__items:hover {
+  color: black;
+}
+.navigation-list__items:hover a {
+  color: #FCB900;
 }
 
 .button-header {
@@ -1959,5 +2003,10 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   transition: all 0.3s ease-in-out;
 }
 .button-header__search:hover {
+  scale: 1.2;
+}
+
+.button-sign-in:hover {
+  transition: all 0.3s ease-in-out;
   scale: 1.2;
 }/*# sourceMappingURL=style.css.map */

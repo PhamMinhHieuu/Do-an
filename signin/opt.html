@@ -10,44 +10,71 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
-<script src="/js/main.js"></script>
 
 <body>
-    <header class="header">
-        <div class="container_center">
-            <div class="header_wrapper">
-                <div class="header-logo">
-                    <a href="/main/index.html">
-                    <img src="/img/logo.svg" alt="logo" >
-                    </a>
-                </div>
-                <ul class="navigation">
-                    <li><a href="/main/index.html">Trang chủ</a></li>
-                    <li><a href="/main/product.html">Sản phẩm</a></li>
-                    <li><a href="/new/news2.html">Tin tức</a></li>
-                    <li><a href="/main/aboutus.html">Về chúng tôi</a></li>
-                </ul>
-                <div class="header-right">
-                    <a href="/main/search.html">
-                        <img src="/img/header-search.png" alt="search" class="button-search">
-                    </a>
-                    <a href="/account/favourite.html">
-                        <img src="/img/header-heart.png" alt="heart" class="button-heart">
-                    </a>
-                    <a href="/pay/cart.html">
-                        <img src="/img/header-shop.png" alt="shop" class="button-shop">
-                    </a>
-                   <a href="/account/youraccount.html">
-                    <div class="accout">
-                        <img src="/img/header-accoutpng.png" alt="avatar">
-                        <p>Hiếu Phạm</p>
-                    </div>
-                   </a> 
-                </div>
-            </div>
-        </div>
+    <div class="container_center">
+        <div class="wrapper">
+            <header class="header header--home" >
+                <div class="container">
+                    <div class="header-flex">
+                        <div class="header-flex__logo">
+                            <a href="/main/index.html" > <img src="/img/logo.svg" alt="logo"></a>
+                        </div>
+                        <div class="header-flex__navigation">
+                            <ul class="navigation-list navigation-list--desktop">
+                                <li class="navigation-list__items"><a href="/main/index.html">Trang chủ</a></li>
+                                <li class="navigation-list__items"><a href="/main/product.html">Sản phẩm</a></li>
+                                <li class="navigation-list__items"><a href="/new/news2.html">Tin tức</a></li>
+                                <li class="navigation-list__items"><a href="/main/aboutus.html">Về chúng tôi</a></li>
+                            </ul>
+                        </div>
+                        <div class="button-header">
+                            <ul class="navigation-list navigation-list--mobile">
+                                <li class="navigation-list__items"><a href="/main/index.html">Trang chủ</a></li>
+                                <li class="navigation-list__items"><a href="/main/product.html">Sản phẩm</a></li>
+                                <li class="navigation-list__items"><a href="/new/news2.html">Tin tức</a></li>
+                                <li class="navigation-list__items"><a href="/main/aboutus.html">Về chúng tôi</a></li>
+                            </ul>
+                            <div class="button-header__search">
+                                <a href="/main/search.html">
+                                <img src="/img/header-search.png" alt="search">
+    
+                                </a>
+                            </div>
+                            <div class="button-header__search">
+                                <a href="/account/favourite.html">
+                                    <img src="/img/header-heart.png" alt="tim">
+    
+                                </a>
+                            </div>
+                            <div class="button-header__search">
+                                <a href="/pay/cart.html">
+                                    <img src="/img/header-shop.png" alt="shop">
+    
+                                </a>
+                            </div>
+    
+                            <div class="button-sign-in">
+                                <a href="/signin/login.html">
+                                    <img src="/img/actor.png" alt="actor">
 
-    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-bar">
+                            <!-- <i class="fa-solid fa-bars"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    
+                        
+                        </div>
+                    </div>
+                    <div class="header-overlay">
+    
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
     <main>
 
     </main>
@@ -89,9 +116,9 @@
                             Mạng xã hội
                         </div>
                         <div class="footer-social__icons">
-                            <img src="/img/footer-facebook.png" alt="facebook">
-                            <img src="/img/footer-instagram.png" alt="instagram">
-                            <img src="/img/footer-youtube.png" alt="Youtube">
+                                 <img class="img-hover" src="/img/footer-facebook.png" alt="facebook">
+                            <img class="img-hover" src="/img/footer-instagram.png" alt="instagram">
+                            <img class="img-hover" src="/img/footer-youtube.png" alt="Youtube">
 
                         </div>
                     </div>
@@ -112,5 +139,6 @@
 
     </footer>
 </body>
+<script src="/js/main.js"></script>
 
 </html>

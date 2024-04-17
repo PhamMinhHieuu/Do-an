@@ -22,31 +22,7 @@
     list-style-type: none;
     gap: 30px;
 }
-.navigation-list__items {
-    a {
-        position: relative;
-        &::before {
-            content: "";
-            width: 10px;
-            height: 10px;
-            background-color: #34C635;
-            position: absolute;
-            left: 40%;
-            top: -8px;
-            border-radius: 50%;
-            display: none;
-        }
-        
-        
-    }
-    &:hover {
-        a {
-            &::before {
-                display: block;
-            }
-        }
-    }
-}
+
 
 .button-header {
     display: flex;
@@ -134,7 +110,7 @@
             content: "";
             width: 10px;
             height: 10px;
-            background-color: #34C635;
+            background-color: unset;
             position: absolute;
             left: 40%;
             top: -8px;
@@ -148,6 +124,12 @@
                 display: block;
             }
         }
+    }
+}
+.navigation-list__items:hover{
+    color: black;
+    a{
+        color: #FCB900;
     }
 }
 
@@ -230,4 +212,8 @@
     &:hover {
         scale: 1.2;
     }
+}
+.button-sign-in:hover{
+    transition: all 0.3s ease-in-out;
+    scale: 1.2;
 }

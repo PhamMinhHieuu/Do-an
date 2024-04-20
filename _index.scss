@@ -396,7 +396,6 @@ background: var(--Foundation-Primary-primary-500, white);
     justify-content: center;
 display: flex;
 flex-wrap: wrap;
-align-items: center;
 gap: 30px;
 @media (max-width:900px){
     padding-bottom: 30px;
@@ -1237,7 +1236,17 @@ background: var(--foundation-black-white-white, #FEFEFE);
 
 }
 .width-img{
+    width: calc((100% - 60px) / 3);
+    img {
+        width: 100%;
+    }
     @media (max-width:900px) {
         width: 230px;
     }
+    @media (max-width:425px) {
+        width: 100%;
+    }
+}
+a{
+    color: black;
 }

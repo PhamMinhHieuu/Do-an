@@ -820,7 +820,6 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 30px;
 }
 @media (max-width: 900px) {
@@ -1807,10 +1806,25 @@ footer .footer-wrapper .footer-bottom .footer-bottom__copyright {
   gap: 12px;
 }
 
+.width-img {
+  width: calc((100% - 60px) / 3);
+}
+.width-img img {
+  width: 100%;
+}
 @media (max-width: 900px) {
   .width-img {
     width: 230px;
   }
+}
+@media (max-width: 425px) {
+  .width-img {
+    width: 100%;
+  }
+}
+
+a {
+  color: black;
 }
 
 .header {

@@ -153,7 +153,11 @@
         transition: all 0.5s ease-out;
     }
 }
-
+.header-signin{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
 .header-flex__logo {
 
     cursor: pointer;

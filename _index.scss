@@ -1,3 +1,18 @@
+.cart-quantity {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #CF2E2E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    top: -8px;
+    left: 14px;
+}
 .section-background {
     background-repeat: round;
     height: auto;

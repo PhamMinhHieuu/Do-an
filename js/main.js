@@ -17,21 +17,30 @@ overlay.addEventListener('click', ()=>{
 
 
 //làm thanh tăng giảm số lượng
-document.addEventListener("DOMContentLoaded", function () {
-    const quantityInput = document.querySelector(".product-wrap__number");
-    const quantityField = quantityInput.querySelector(".product-number");
-    const incrementButton = quantityInput.querySelector(".increment");
-    const decrementButton = quantityInput.querySelector(".decrement");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const quantityInput = document.querySelector(".product-wrap__number");
+//     const quantityField = quantityInput.querySelector(".product-number");
+//     const incrementButton = quantityInput.querySelector(".increment");
+//     const decrementButton = quantityInput.querySelector(".decrement");
   
-    Button.addEventListener("click", function () {
-      quantityField.stepUp();
-    });
+//     Button.addEventListener("click", function () {
+//       quantityField.stepUp();
+//     });
   
-    decrementButton.addEventListener("click", function () {
-      if (quantityField.value > quantityField.min) {
-        quantityField.stepDown();
-      }
-    });
-  });
+//     decrementButton.addEventListener("click", function () {
+//       if (quantityField.value > quantityField.min) {
+//         quantityField.stepDown();
+//       }
+//     });
+//   });
   
+
+let cartCount = 0;
+const buttonCart = document.querySelectorAll('.product-style__img')
+buttonCart.forEach(item => {
+    item.addEventListener("click", function() {
+        cartCount++
+        document.getElementById("cartCount").innerText = cartCount;
+    })
+})
 
